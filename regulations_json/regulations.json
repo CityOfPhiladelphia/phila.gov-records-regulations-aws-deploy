@@ -1,6 +1,6 @@
 [
     {
-        "filing_date": "6/10/2023",
+        "filing_date": "6/9/2023",
         "department": "Department of Public Health",
         "proposed_reg": "Amendments to regulations governing the control of communicable and noncommunicable diseases and conditions regarding Monkeypox and Pediatric Multisystem Inflammatory Syndrome",
         "reg_link": "Amendment to Reporting Regulations_Monkeypox and MIS_Final.pdf",
@@ -16,7 +16,7 @@
         "support.4": null
     },
     {
-        "filing_date": "6/8/2023",
+        "filing_date": "6/7/2023",
         "department": "Department of Labor",
         "proposed_reg": "Regulations regarding practice and procedure for the enforcement of chapters 9-4100, 9-4300, 9-4500, 9-4600, 9-4700, 9-5000, 9-5600, and 9-3303(1)(d) of the Philadelphia Code",
         "reg_link": "Department of Labor Office Regulations 6 7 2023.pdf",
@@ -32,7 +32,7 @@
         "support.4": null
     },
     {
-        "filing_date": "5/20/2023",
+        "filing_date": "5/19/2023",
         "department": "Office of Human Resources",
         "proposed_reg": "Amendment of Civil Service Regulation 27.01284- Life insurance plan",
         "reg_link": "27.01284-23-05.pdf",
@@ -48,7 +48,7 @@
         "support.4": null
     },
     {
-        "filing_date": "5/20/2023",
+        "filing_date": "5/19/2023",
         "department": "Office of Human Resources",
         "proposed_reg": "Amendment of Civil Service Regulation 21.0315- Hourly medical personnel represented by District Council 47",
         "reg_link": "21.0315-23-04.pdf",
@@ -64,7 +64,7 @@
         "support.4": null
     },
     {
-        "filing_date": "5/20/2023",
+        "filing_date": "5/19/2023",
         "department": "Office of Human Resources",
         "proposed_reg": "Amendment of Civil Service Regulation 6.086- Appointment rate for employees hired from open competitive eligible lists for the following classes and departments",
         "reg_link": "6.086-23-4.pdf",
@@ -80,7 +80,7 @@
         "support.4": null
     },
     {
-        "filing_date": "5/20/2023",
+        "filing_date": "5/19/2023",
         "department": "Office of Human Resources",
         "proposed_reg": "Amendment of Civil Service Regulation 5.158- Classes eligible for in-position promotion",
         "reg_link": "5.158-23-4.pdf",
@@ -95,10 +95,58 @@
         "support.3": null,
         "support.4": null
     },
+      {
+        "filing_date": "4/27/2023",
+        "department": "Office of the Mayor",
+        "proposed_reg": "Recission of March 11, 2020, Declaration of Extraordinary Circumstance: Suspending the Formal Regulatory Process for Regulations Concerning a Novel Coronavirus",
+        "reg_link": "Rescind Declaration of Extraordinary Circumstance.pdf",
+        "hearing_request": "No",
+        "hearing_date": null,
+        "hearing_report": null,
+        "final_reg": "see proposed",
+        "law": null,
+        "support": null,
+        "support.1": null,
+        "support.2": null,
+        "support.3": null,
+        "support.4": null
+    },
+      {
+        "filing_date": "4/14/2023",
+        "department": "Office of Human Resources",
+        "proposed_reg": "Amendment of Civil Service Regulation 31.62- Hiring Bonus Pilot for Lifeguard for 2023 Season",
+        "reg_link": "31.62-23-03.pdf",
+        "hearing_request": "No",
+        "hearing_date": null,
+        "hearing_report": null,
+        "final_reg": "see proposed",
+        "law": null,
+        "support": "23-03 Law Memo UPDATED-signed.pdf",
+        "support.1": null,
+        "support.2": null,
+        "support.3": null,
+        "support.4": null
+    },
+    {
+        "filing_date": "4/14/2023",
+        "department": "Office of Human Resources",
+        "proposed_reg": "Amendment Of Civil Service Service Regulation 9.0670- Additional Credits On Open Competitive Examinations For Candidates Who Have Graduated From A Career Technical Education Program Of The School District Of Philadelphia",
+        "reg_link": "9.0670-23-03.pdf",
+        "hearing_request": "No",
+        "hearing_date": null,
+        "hearing_report": null,
+        "final_reg": "see proposed",
+        "law": null,
+        "support": "23-03 Law Memo UPDATED_signed.pdf",
+        "support.1": null,
+        "support.2": null,
+        "support.3": null,
+        "support.4": null
+    },
     {
         "filing_date": "3/22/2023",
-        "department": "OFFICE OF THE MANAGING DIRECTOR",
-        "proposed_reg": "MANAGING DIRECTOR'S OFFICE REGULATION REGARDING SERVICE AND APPEAL FOR CERTAIN NOTICES OF VIOLATION",
+        "department": "Office of the Managing Director",
+        "proposed_reg": "Managing Director's Office regulation regarding service and appeal for certain notices of violation",
         "reg_link": "Managing Director Regulation 3-22-23.pdf",
         "hearing_request": "No",
         "hearing_date": null,
@@ -106,6 +154,22 @@
         "final_reg": "see proposed",
         "law": null,
         "support": null,
+        "support.1": null,
+        "support.2": null,
+        "support.3": null,
+        "support.4": null
+    },
+        {
+        "filing_date": "3/10/2023",
+        "department": "Office of Human Resources",
+        "proposed_reg": "Amendment of Civil Service Regulation 6.14.64 - City employees assigned to perform language access projects by the Office of Language Access",
+        "reg_link": "6.14.64-22-12.pdf",
+        "hearing_request": "No",
+        "hearing_date": null,
+        "hearing_report": null,
+        "final_reg": "see proposed",
+        "law": null,
+        "support": "Law Memo_ SIGNED.pdf",
         "support.1": null,
         "support.2": null,
         "support.3": null,
