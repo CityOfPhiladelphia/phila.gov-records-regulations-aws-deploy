@@ -20,7 +20,7 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
       run: |
         aws s3 sync regulations "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/" --delete 
-        aws s3 sync regulations1 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulationsNEW/" --delete 
-        aws s3 sync regulations2 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulationsNEW/" --delete 
+        aws s3 sync regulations1 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulationsNEW/"
+        aws s3 sync regulations2 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulationsNEW/"
         aws s3 sync regulations_json "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations_json/" --delete
         aws cloudfront create-invalidation --distribution-id ${{ secrets.CF_INVALIDATE_PROD }} --paths "/*"
