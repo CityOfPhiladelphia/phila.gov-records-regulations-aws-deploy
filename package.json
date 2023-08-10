@@ -1,0 +1,25 @@
+{
+  "name": "phila.gov-records-regulations-aws-deploy",
+  "version": "1.0.0",
+  "description": "Housing public regulations from the http://regulations.phila-records.com/ website",
+  "main": "regs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfPhiladelphia/phila.gov-records-regulations-aws-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CityOfPhiladelphia/phila.gov-records-regulations-aws-deploy/issues"
+  },
+  "homepage": "https://github.com/CityOfPhiladelphia/phila.gov-records-regulations-aws-deploy#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.1"
+  }
+}

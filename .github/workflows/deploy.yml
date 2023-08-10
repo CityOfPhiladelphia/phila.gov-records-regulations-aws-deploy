@@ -20,6 +20,7 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
       run: |
         aws s3 sync regulations "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/"
+        aws s3 sync new_regulations "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/aaaaa/"
         aws s3 sync regulations1 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/"
         aws s3 sync regulations2 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/"
         aws s3 sync regulations3 "s3://prod-phila-gov-website-s3/departments/department-of-records/regulations/"
