@@ -1,54 +1,41 @@
 const fs = require('fs');
 const path = require('path');
-const url = require('url');
-const csvWriter = require('csv-writer').createObjectCsvWriter;
+const parse = require('csv-parser');
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
-const regulationsDir = 'regulations';
-const newRegulationsDir = 'new_regulations';
-const csvFilePath = 'file_mapping.csv';
+const inputDir = 'regulations';
+const outputDir = 'new_regulations';
+const csvOutputPath = 'rename_tracking.csv';
 
-// Ensure the "new_regulations" directory exists
-if (!fs.existsSync(newRegulationsDir)) {
-    fs.mkdirSync(newRegulationsDir);
-}
-
-// Create a CSV writer
-const csvWriterObj = csvWriter({
-    path: csvFilePath,
-    header: [
-        { id: 'originalName', title: 'Original File Name' },
-        { id: 'newName', title: 'New File Name' }
-    ]
+const csvWriter = createCsvWriter({
+  path: csvOutputPath,
+  header: [
+    { id: 'originalFilename', title: 'Original Filename' },
+    { id: 'newFilename', title: 'New Filename' }
+  ],
+  append: true // Append to existing CSV file
 });
 
-// Read files from "regulations" directory
-fs.readdir(regulationsDir, (err, files) => {
-    if (err) {
-        console.error('Error reading directory:', err);
-        return;
-    }
+function sanitizeFilename(filename) {
+  return filename.replace(/[^\w\d.]/g, '-');
+}
 
-    // Process each file
-    files.forEach(originalName => {
-        const newName = encodeURIComponent(originalName); // URL-encode the file name
-        const sourcePath = path.join(regulationsDir, originalName);
-        const targetPath = path.join(newRegulationsDir, newName);
+fs.mkdirSync(outputDir, { recursive: true });
 
-        // Rename and move the file
-        fs.rename(sourcePath, targetPath, err => {
-            if (err) {
-                console.error('Error renaming/moving file:', err);
-                return;
-            }
+fs.readdirSync(inputDir).forEach((file) => {
+  if (file.endsWith('.pdf')) {
+    const originalFilename = file;
+    const newFilename = sanitizeFilename(file);
 
-            // Write to CSV
-            csvWriterObj.writeRecords([
-                { originalName, newName }
-            ]).then(() => {
-                console.log(`File "${originalName}" renamed and moved to "${newName}"`);
-            }).catch(error => {
-                console.error('Error writing to CSV:', error);
-            });
-        });
+    fs.copyFileSync(
+      path.join(inputDir, originalFilename),
+      path.join(outputDir, newFilename)
+    );
+
+    csvWriter.writeRecords([
+      { originalFilename, newFilename }
+    ]).then(() => {
+      console.log(`Processed: ${originalFilename}`);
     });
+  }
 });
