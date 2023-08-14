@@ -17,7 +17,7 @@ const csvWriter = createCsvWriter({
 });
 
 function sanitizeFilename(filename) {
-  return filename.replace(/[^\w\d.]/g, '-');
+  return filename.replace(/[^\w\d.]/g, '-').toLowerCase();
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
