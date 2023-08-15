@@ -28,6 +28,9 @@ fs.createReadStream(csvFilePath)
           if (entry.reg_link != null) {
             entry.reg_link = entry.reg_link.replace(originalFilename, newFilename);
           }
+          if (entry.hearing_report != null) {
+            entry.hearing_report = entry.hearing_report.replace(originalFilename, newFilename);
+          }
           if (entry['support'] != null) {
             entry.support = entry.support.replace(originalFilename, newFilename);
           }
