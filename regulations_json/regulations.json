@@ -31,7 +31,24 @@
     "support.3": null,
     "support.4": null
   },
-          {
+         {
+    "filing_date": "6/26/2024",
+    "department": "Philadelphia Water, Sewer and Storm Water Rate Board",
+    "proposed_reg": "Rate Determination–2024 TAP-R Reconciliation Proceeding (Determination of Water Department Tiered Assistance Program Rate Rider Surcharge Rates Beginning 9/1/2024)",
+    "reg_link": "board-determination-20240626.pdf",
+    "hearing_request": "No",
+    "hearing_date": null,
+    "hearing_report": null,
+    "final_reg": "see proposed",
+    "law": "Yes",
+    "support": "2024-tap-r-memo.pdf",
+    "support.1": "final-rates-and-charges.pdf",
+    "support.2": "compliance-memorandum-to-records.pdf",
+    "support.3": "dwch-to-popowsky-approving-2024-reconciliation-proceeding-rate-determination.pdf",
+    "support.4": "popowsky-to-leonard-transmitting-2024-reconciliation-proceeding-rate-determination.pdf"
+    "support.5": "dwch-to-leonard-transmittal-reconciliation-proceeding-rate-determination.pdf"                 
+  },
+            {
     "filing_date": "6/24/2024",
     "department": "Office of Human Resources",
     "proposed_reg": "Amendment of Civil Service Regulation 5.158- Classes Eligible For In-Position Promotion",
@@ -44,22 +61,6 @@
     "support": "law-memo-signature.pdf",
     "support.1": null,
     "support.2": null,
-    "support.3": null,
-    "support.4": null
-  },
-         {
-    "filing_date": "6/26/2024",
-    "department": "Philadelphia Water, Sewer and Storm Water Rate Board",
-    "proposed_reg": "Rate Determination–2024 TAP-R Reconciliation Proceeding (Determination of Water Department Tiered Assistance Program Rate Rider Surcharge Rates Beginning 9/1/2024)",
-    "reg_link": "board-determination-20240626.pdf",
-    "hearing_request": "No",
-    "hearing_date": null,
-    "hearing_report": null,
-    "final_reg": "see proposed",
-    "law": "Yes",
-    "support": "dwch-to-popowsky-approving-2024-reconciliation-proceeding-rate-determination.pdf",
-    "support.1": "popowsky-to-leonard-transmitting-2024-reconciliation-proceeding-rate-determination.pdf",
-    "support.2": "dwch-to-leonard-transmittal-reconciliation-proceeding-rate-determination.pdf",
     "support.3": null,
     "support.4": null
   },
